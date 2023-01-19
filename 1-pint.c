@@ -14,3 +14,20 @@ void pint(stack_t *stack)
     }
     printf("%d\n", stack->stack[stack->top]);
 }
+
+/**
+  * main - Entry point
+  *
+  * Return: 0 always
+  */
+int main()
+{
+    stack_t *stack = create_stack(10);
+    push(stack, 1);
+	pint(stack);
+    push(stack, 2);
+	pint(stack);
+    push(stack, 3);
+    pint(stack);
+    return 0;
+}
