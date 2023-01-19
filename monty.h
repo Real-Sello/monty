@@ -18,6 +18,21 @@ typedef struct stack_s {
     int size;
 } stack_t;
 
+/**
+  * create_stack - Creating the stack
+  * @size: The size of the stack
+  *
+  * Return: stack
+  */
+stack_t *create_stack(int size)
+{
+    stack_t *stack = (stack_t *)malloc(sizeof(stack_t));
+    stack->stack = (int *)malloc(sizeof(int) * size);
+    stack->top = -1;
+    stack->size = size;
+    return stack;
+}
+
 int _atoi(char *s);
 void push(stack_t *stack, int value);
 void pall(stack_t *stack);
