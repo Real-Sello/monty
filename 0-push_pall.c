@@ -1,21 +1,6 @@
 #include "monty.h" 
 
 /**
-  * create_stack - Creating the stack
-  * @size: The size of the stack
-  *
-  * Return: stack
-  */
-stack_t *create_stack(int size)
-{
-    stack_t *stack = (stack_t *)malloc(sizeof(stack_t));
-    stack->stack = (int *)malloc(sizeof(int) * size);
-    stack->top = -1;
-    stack->size = size;
-    return stack;
-}
-
-/**
  * _atoi - Convert a string to an integer.
  * @s: The pointer to convert
  *
