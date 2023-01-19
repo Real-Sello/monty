@@ -16,6 +16,23 @@ void pint(stack_t *stack)
 }
 
 /**
+  * push - Pushes an element to the stack
+  * @stack: Stack
+  * @value: Content to be added to stack
+  *
+  * Return: Nothing
+  */
+void push(stack_t *stack, int value)
+{
+    if (stack->top == stack->size - 1) {
+        printf("Error: stack overflow\n");
+        return;
+    }
+    stack->top++;
+    stack->stack[stack->top] = value;
+}
+
+/**
   * main - Entry point
   *
   * Return: 0 always
