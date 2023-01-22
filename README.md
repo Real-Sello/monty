@@ -97,7 +97,10 @@ Monty byte code files can contain blank lines (empty or made of spaces only, and
 
 ## Authors
 
-- [@Real-Sello](https://github.com/Real-Sello) - *Sello Prince Moneatse*
-- [@Prisoner218070144](https://github.com/Prisoner218070144) - *Kulani Quinton Rikhotso*
+- [@Real-Sello](https://github.com/Real-Sello) & [@Prisoner218070144](https://github.com/Prisoner218070144) | ALX | Cohort 10
+___
 
+## Copyright
+
+Sello Prince Moneatse &copy; 2023 | Kulani Quinton Rikhotso &copy; 2023 | All Rights Reserved
 
